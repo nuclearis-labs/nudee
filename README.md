@@ -1,9 +1,8 @@
-# cryptorndd
+# Decentralized Engineering (dIng)
 
 [![standard-readme compliant](https://img.shields.io/badge/standard--readme-OK-green.svg?style=flat-square)](https://github.com/RichardLitt/standard-readme)
-TODO: Put more badges here.
 
-Decentralized platform for development of mechanical and electrical engineering
+Decentralized platform for mechanical and electrical engineering
 
 TODO: Fill out this long description.
 
@@ -25,11 +24,13 @@ TODO: Fill out this long description.
 ## Install
 
 ```
+git clone https://github.com/NRS-Soft/dIng
 ```
 
 ## Usage
 
 ```
+
 ```
 
 ## API
@@ -40,10 +41,8 @@ TODO: Fill out this long description.
 
 ## Contributing
 
-
-
 Small note: If editing the README, please conform to the [standard-readme](https://github.com/RichardLitt/standard-readme) specification.
 
 ## License
 
-MIT © 2019 Sebastian Martinez
+All rights reserved © 2020 NRS S.A.
