@@ -1,0 +1,56 @@
+body {
+  background-color: #1f2833;
+  font-family: "Source Sans Pro", sans-serif;
+  text-align: center;
+}
+
+.title {
+  margin-top: 30vh;
+  font-size: 64px;
+  color: #66fcf1;
+}
+
+.text {
+  font-size: 24px;
+  color: #c5c6c7;
+}
+
+.input-fields {
+  padding: 0.5em;
+  background-color: transparent;
+  border: 1px solid #66fcf1;
+}
+
+#email-input {
+  border-right: none;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+#submit-button {
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+@media screen and (min-width: 601px) {
+  .text {
+    font-size: 18px;
+  }
+  .title {
+    font-size: 64px;
+  }
+  #email-input {
+    width: 428px;
+  }
+}
+
+@media screen and (max-width: 601px) {
+  .text {
+    font-size: 14px;
+  }
+  .title {
+    font-size: 42px;
+  }
+  #email-input {
+    width: 200px;
+  }
+}
