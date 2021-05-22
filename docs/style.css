@@ -1,13 +1,34 @@
 body {
+  margin: 0;
+  padding: 0;
   background-color: #1f2833;
   font-family: "Source Sans Pro", sans-serif;
-  text-align: center;
 }
 
-.title {
-  margin-top: 30vh;
+main {
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  height: 100vh;
+}
+
+#title {
   font-size: 64px;
+  text-align: center;
   color: #66fcf1;
+  display: flex;
+  flex: 1 1 auto;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+#logo {
+  margin-bottom: 10px;
+}
+
+#newsletter-form {
+  flex: 1 1 auto;
 }
 
 .text {
@@ -31,11 +52,15 @@ body {
   border-bottom-right-radius: 5px;
 }
 
+#spacer {
+  flex: 0 0 30px;
+}
+
 @media screen and (min-width: 601px) {
   .text {
     font-size: 18px;
   }
-  .title {
+  #title {
     font-size: 64px;
   }
   #email-input {
@@ -47,7 +72,7 @@ body {
   .text {
     font-size: 14px;
   }
-  .title {
+  #title {
     font-size: 42px;
   }
   #email-input {
